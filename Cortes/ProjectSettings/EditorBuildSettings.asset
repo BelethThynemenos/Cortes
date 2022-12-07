@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TestLancio.unity
+    guid: c6ea2de8a71e7b048a4870f9c8e4bad1
+  m_configObjects: {}
