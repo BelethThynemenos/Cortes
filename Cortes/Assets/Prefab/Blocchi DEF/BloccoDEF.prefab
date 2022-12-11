@@ -105,9 +105,10 @@ GameObject:
   - component: {fileID: 5400000}
   - component: {fileID: 6500000}
   - component: {fileID: 2307076065584315357}
+  - component: {fileID: 7823262023577226699}
   m_Layer: 0
   m_Name: BloccoDEF
-  m_TagString: Untagged
+  m_TagString: RISORSE
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -208,8 +209,8 @@ MonoBehaviour:
   sinkWhenDestroyed: 0
   shouldDeactivate: 0
   isTerrainTree: 0
-  destroyedSound: {fileID: 0}
-  damagedSound: {fileID: 0}
+  destroyedSound: {fileID: 8300000, guid: ff5f85da24bc943d1abdc5760a22bc81, type: 3}
+  damagedSound: {fileID: 8300000, guid: ff5f85da24bc943d1abdc5760a22bc81, type: 3}
   repairedSound: {fileID: 0}
 --- !u!54 &5400000
 Rigidbody:
@@ -256,6 +257,19 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!65 &7823262023577226699
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5, y: 2.5, z: 2.5}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &100006
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,6 +376,7 @@ GameObject:
   - component: {fileID: 7737709133520612784}
   - component: {fileID: 3365319529590627913}
   - component: {fileID: 5296484762758969209}
+  - component: {fileID: 176399730122321432}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -692,3 +707,16 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &176399730122321432
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268803893292033331}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5, y: 2.5, z: 2.5}
+  m_Center: {x: 0, y: 0, z: 0}

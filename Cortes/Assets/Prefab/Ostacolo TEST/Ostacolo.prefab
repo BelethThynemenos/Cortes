@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 5523057185206231416}
   m_Layer: 0
   m_Name: Ostacolo
-  m_TagString: Untagged
+  m_TagString: OSTACOLI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

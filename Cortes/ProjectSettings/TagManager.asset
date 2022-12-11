@@ -9,6 +9,9 @@ TagManager:
   - WALL
   - PROIETTILE
   - FRAMMENTI
+  - OSTACOLI
+  - RISORSE
+  - VUOTO
   layers:
   - Default
   - TransparentFX
@@ -41,7 +44,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - NOT-UI
   m_SortingLayers:
   - name: Fire
     uniqueID: 3804908061

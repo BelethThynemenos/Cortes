@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3512428139460717602}
   m_Layer: 0
   m_Name: support point (2)
-  m_TagString: Untagged
+  m_TagString: OSTACOLI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 7429345969370186964}
   m_Layer: 0
   m_Name: support point (1)
-  m_TagString: Untagged
+  m_TagString: OSTACOLI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108,9 +108,10 @@ GameObject:
   - component: {fileID: 2802689642237922620}
   - component: {fileID: 5490828923595224290}
   - component: {fileID: 8540103102536237703}
+  - component: {fileID: 6927279363336518655}
   m_Layer: 0
   m_Name: ExagonalDOOR
-  m_TagString: Untagged
+  m_TagString: OSTACOLI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -664,7 +665,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1205
+  m_VersionIndex: 1238
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -856,6 +857,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6927279363336518655
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4159347809770238760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 33.5, y: 2.4, z: 29.011852}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4322094805401045232
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,7 +882,7 @@ GameObject:
   - component: {fileID: 7868103022102847836}
   m_Layer: 0
   m_Name: support point
-  m_TagString: Untagged
+  m_TagString: OSTACOLI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -914,7 +928,7 @@ GameObject:
   - component: {fileID: 2636112139766821443}
   m_Layer: 0
   m_Name: support point (3)
-  m_TagString: Untagged
+  m_TagString: OSTACOLI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
