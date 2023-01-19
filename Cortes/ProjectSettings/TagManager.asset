@@ -12,6 +12,7 @@ TagManager:
   - OSTACOLI
   - RISORSE
   - VUOTO
+  - SPAWNER
   layers:
   - Default
   - TransparentFX

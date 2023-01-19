@@ -103,13 +103,15 @@ MonoBehaviour:
       transitions: []
       actionData:
         actionNames:
+        - HutongGames.PlayMaker.Actions.Wait
         - HutongGames.PlayMaker.Actions.SendEvent
         customNames:
         - 
-        actionEnabled: 01
-        actionIsOpen: 01
-        actionStartIndex: 00000000
-        actionHashCodes: 5e69bb04
+        - 
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000003000000
+        actionHashCodes: 48c011015e69bb04
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams: []
@@ -162,7 +164,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0.5
+          value: 0.1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.25
         fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
@@ -171,20 +179,24 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
+        - 
         - AVVIO
-        byteData: 00
+        byteData: 0000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 1f000000170000000f00000001000000
+        paramDataType: 0f00000017000000010000001f000000170000000f00000001000000
         paramName:
+        - time
+        - finishEvent
+        - realTime
         - eventTarget
         - sendEvent
         - delay
         - everyFrame
-        paramDataPos: 00000000000000000000000000000000
-        paramByteDataSize: 00000000000000000000000001000000
+        paramDataPos: 00000000000000000000000000000000010000000100000001000000
+        paramByteDataSize: 00000000000000000100000000000000000000000000000001000000
     - name: Stato 1
       description: 
       colorIndex: 0
@@ -309,7 +321,7 @@ MonoBehaviour:
     manualUpdate: 0
     outVariableIndices: 
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     OutputEvents: []
     RestartOnEnable: 1
@@ -345,7 +357,7 @@ MonoBehaviour:
     handleAnimatorMove: 0
     handleAnimatorIK: 0
   fsmTemplate: {fileID: 0}
-  eventHandlerComponentsAdded: 0
+  eventHandlerComponentsAdded: 1
 --- !u!1 &245345502371921634
 GameObject:
   m_ObjectHideFlags: 0
